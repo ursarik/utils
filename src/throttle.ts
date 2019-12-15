@@ -1,15 +1,13 @@
 const throttle = (msec: number, fn: Function) => {
-  let wait = false;
+  let lastCalled = null;
+
   return (...args: any[]) => {
-    if (!wait) {
-      wait = true;
+    const now = Date.now();
+    if (lastCalled && now - lastCalled < msec) return;
 
-      setTimeout(() => {
-        wait = false;
-      }, msec);
+    lastCalled = now;
 
-      return fn(...args);
-    }
+    return fn(...args);
   };
 };
 
