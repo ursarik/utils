@@ -7,4 +7,4 @@ __export(require("./throttle"));
 __export(require("./sleep"));
 __export(require("./multi-includes"));
 __export(require("./generate-random-number"));
-__export(require("./calculate-percent"));
+__export(require("./calculate-percentage"));
