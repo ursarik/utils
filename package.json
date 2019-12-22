@@ -1,10 +1,9 @@
 {
   "name": "@ursarik/utils",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/main.js",
   "repository": "ursarik/utils",
-  "dependencies": {},
   "devDependencies": {
     "ts-node": "^8.5.4",
     "typescript": "^3.7.3"
