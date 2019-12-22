@@ -3,3 +3,7 @@ export * from "./sleep";
 export * from "./multi-includes";
 export * from "./generate-random-number";
 export * from "./calculate-percentage";
+export * from "./replace-last-letters";
+export * from "./random-interval";
+export * from "./promise-timeout";
+export * from "./async-for-each";

@@ -8,3 +8,7 @@ __export(require("./sleep"));
 __export(require("./multi-includes"));
 __export(require("./generate-random-number"));
 __export(require("./calculate-percentage"));
+__export(require("./replace-last-letters"));
+__export(require("./random-interval"));
+__export(require("./promise-timeout"));
+__export(require("./async-for-each"));
