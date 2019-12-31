@@ -7,3 +7,4 @@ export * from "./replace-last-letters";
 export * from "./random-interval";
 export * from "./promise-timeout";
 export * from "./async-for-each";
+export * from "./pipe";

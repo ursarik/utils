@@ -12,3 +12,4 @@ __export(require("./replace-last-letters"));
 __export(require("./random-interval"));
 __export(require("./promise-timeout"));
 __export(require("./async-for-each"));
+__export(require("./pipe"));
