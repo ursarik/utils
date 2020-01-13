@@ -13,3 +13,4 @@ __export(require("./random-interval"));
 __export(require("./promise-timeout"));
 __export(require("./async-for-each"));
 __export(require("./pipe"));
+__export(require("./non-blocking"));

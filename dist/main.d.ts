@@ -8,3 +8,4 @@ export * from "./random-interval";
 export * from "./promise-timeout";
 export * from "./async-for-each";
 export * from "./pipe";
+export * from "./non-blocking";
