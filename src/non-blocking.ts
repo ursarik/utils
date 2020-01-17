@@ -14,6 +14,7 @@ class NonBlocking {
         if (diff > this.INTERVAL) {
           time = now;
           setTimeout(next, 0);
+          break;
         } else {
           fn(array[i], i++, array);
         }
