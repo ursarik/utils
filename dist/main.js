@@ -14,3 +14,4 @@ __export(require("./promise-timeout"));
 __export(require("./async-for-each"));
 __export(require("./pipe"));
 __export(require("./non-blocking"));
+__export(require("./date"));
